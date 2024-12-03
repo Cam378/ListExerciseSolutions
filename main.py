@@ -48,8 +48,8 @@ for num in u_list:
     l_num = num
 print(l_num," ",u_list)
 """
-"""
-Ex4. Write a Python program to get the smallest number from a user defined list (use loops not built in min/max functions)
+
+#Ex4. Write a Python program to get the smallest number from a user defined list (use loops not built in min/max functions)
 
 u_list = []
 #getting length of list
@@ -63,10 +63,9 @@ for num in u_list:
   if num<s_num:
     s_num = num
 print(s_num," ",u_list)
-"""
-"""
-Ex5. Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings
 
+#Ex5. Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings
+"""
 u_list = []
 #getting length of list
 l_length = int(input("Please enter in the length of list: "))
@@ -81,7 +80,7 @@ print(count)
 """
 """
 Ex6. Write a Python program to remove duplicates from a list (hint: create a copy of the list to remove items from, or use a list to keep track of the indices of duplicates)
-"""
+
 #Method 1
 rand_list = []
 for i in range(0, 10):
@@ -95,3 +94,4 @@ for num in rand_list:
     cp_rlist.append(num)
 del rand_list
 print(cp_rlist)
+"""
